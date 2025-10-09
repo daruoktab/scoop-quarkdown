@@ -3,10 +3,7 @@
   "description": "A modern Markdown-based typesetting system",
   "homepage": "https://github.com/iamgio/quarkdown",
   "license": "GPL-3.0",
-  "depends": [
-    "java/openjdk17",
-    "nodejs-lts"
-  ],
+  "depends": [],
   "url": "https://github.com/iamgio/quarkdown/releases/download/v1.10.0/quarkdown.zip",
   "hash": "1d714ae581a50469fbe5c499ead2821131d440b89c4b1a44de95e8cb2f062734",
   "extract_dir": "quarkdown",
@@ -19,8 +16,6 @@
     "Set-Content -Path \"$dir\\bin\\quarkdown.bat\" -Value @(",
     "  '@echo off',",
     "  'set APPS_DIR=%~dp0..\\..\\..',",
-    "  'set JAVA_HOME=%APPS_DIR%\\openjdk17\\current',",
-    "  'set PATH=%APPS_DIR%\\nodejs-lts\\current;%PATH%',",
     "  'set QD_NPM_PREFIX=%~dp0..\\lib',",
     "  '\"%~dp0_quarkdown\" %*'",
     ")"
