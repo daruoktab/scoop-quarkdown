@@ -4,7 +4,7 @@
   "homepage": "https://github.com/iamgio/quarkdown",
   "license": "GPL-3.0",
   "depends": [],
-  "url": "https://github.com/iamgio/quarkdown/releases/download/v1.12.1/quarkdown.zip",
+  "url": "https://github.com/iamgio/quarkdown/releases/download/v1.13.0/quarkdown.zip",
   "hash": "a6116fa9d27f844fde533fb3a1d119096f0ecdd28c68ef06540f0d558d6939b2",
   "extract_dir": "quarkdown",
   "bin": "bin\\quarkdown.bat",
