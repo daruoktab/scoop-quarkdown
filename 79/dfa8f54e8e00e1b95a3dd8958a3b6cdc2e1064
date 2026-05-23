@@ -1,0 +1,19 @@
+bucket/quarkdown.json
+  s_d1182b406ddf30::t_e15997caa07990 7
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.0",
+  "base_commit_sha": "79dfa8f54e8e00e1b95a3dd8958a3b6cdc2e1064",
+  "prompts": {},
+  "sessions": {
+    "s_d1182b406ddf30": {
+      "agent_id": {
+        "tool": "github-copilot",
+        "id": "e592269f-2b26-4c89-804e-58acb0f6d9da",
+        "model": "gpt-5-mini"
+      },
+      "human_author": "daruoktab <daruokta@gmail.com>"
+    }
+  }
+}
